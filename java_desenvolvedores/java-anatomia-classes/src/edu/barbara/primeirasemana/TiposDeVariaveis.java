@@ -16,7 +16,7 @@ package edu.barbara.primeirasemana;
 
 public class TiposDeVariaveis {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         
         byte idade = 12;
         short ano = 2021;
@@ -46,5 +46,21 @@ public class TiposDeVariaveis {
 
         //valorPI = 2.45;  nao aceita sobescrever o valor, dá erro.
         System.err.println("valorPI: " + valorPI);
+
+        char genero = 'F';
+        //char genero1 = "F"; errado, nao aceita aspas duplas
+        String generoExtenso = "Feminino"; //String nao é um tipo primitivo
+        //String generoExtenso1 = 'Feminino'; errado, nao aceita aspas simples
+
+        System.out.println("Gênero em String: " + generoExtenso + "\n" + "gênero em char: " + genero);
+
+        boolean feminino = true;
+
+        if(feminino){
+            System.out.println("O gênero é feminino.");
+        }else{
+            System.out.println("O gênero é indefinido.");
+        }
+
     }
 }
