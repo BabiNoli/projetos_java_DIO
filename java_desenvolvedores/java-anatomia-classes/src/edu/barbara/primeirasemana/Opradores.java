@@ -42,12 +42,18 @@ public class Opradores {
         a = 6;
         b = 6;
         c = 8;
+
+        //if - else
         String resultado = a==b ? "igual" : "diferente";
         System.out.println(resultado);
-        resultado = a<b || a==c? "verdadeiro" : "falso";
+        resultado = a<b || a==c? "falso" : "verdadeiro";
         System.out.println(resultado);
         resultado = a<c && a==b? "verdadeiro" : "falso";
         System.out.println(resultado);
+
+        // if -else if- else
+        String resultadoC = c==b ? "igual" : c>b && c>a ? "maior" : "menor";
+        System.out.println("C é " + resultadoC);
 
         int numero1 = 1;
         int numero2 = 2;
