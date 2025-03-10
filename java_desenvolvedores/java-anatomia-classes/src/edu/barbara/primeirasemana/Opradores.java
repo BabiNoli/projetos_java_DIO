@@ -77,7 +77,7 @@ public class Opradores {
         System.out.println(nome2.equals(nome3) || nome1.equals(nome3));
         System.out.println(nome2.equals(nome3) && nome1.equals(nome3));
 
-        if(simNao && nome2 == nome3){
+        if(simNao && nome2.equals(nome3)){
             System.out.println("Interessante!");
         }else{
             System.out.println("Nem faz sentido.");
