@@ -1,4 +1,4 @@
-import java.text.NumberFormat;
+/*import java.text.NumberFormat;
 import java.util.Locale;
 
 public class ExemploExcecao {
@@ -30,3 +30,4 @@ public class ExemploExcecao {
 
     }
 }
+*/
