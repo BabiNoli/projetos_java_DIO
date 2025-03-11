@@ -20,12 +20,12 @@ public class ProcessoSeletivo {
 	static void selecaoCandidato(double salarioBase, String[] candidatos, int vagas) {
 
 		String[] canditadosSelecionados = new String[vagas];
-		int candidatosSelecionados = 0;
+		int candidatosSelecionadosCount = 0;
 		int candidatosAtual = 0;
 		int indice = 0;
 		
 		
-		while(candidatosSelecionados < vagas && candidatosAtual < candidatos.length) {
+		while(candidatosSelecionadosCount < vagas && candidatosAtual < candidatos.length) {
 			String candidato = candidatos[candidatosAtual];
 			double salarioPretendido = valorPretendido(); //gera um valor aleatório entre 1800 e 2200
 			System.out.println("\nO candidato " + candidato + " pretende ganhar " + salarioPretendido);
@@ -36,7 +36,7 @@ public class ProcessoSeletivo {
 			if(salarioBase < salarioPretendido) {
 				canditadosSelecionados[indice] = candidato;
 				indice++;
-				candidatosSelecionados++;
+				candidatosSelecionadosCount++;
 			}
 				
 			candidatosAtual++;	
@@ -45,7 +45,7 @@ public class ProcessoSeletivo {
 		
 		
 		System.out.println("\nLigando para os candidatos selecionados...\n");
-		for(int i = 0; i < candidatosSelecionados; i++) {
+		for(int i = 0; i < candidatosSelecionadosCount; i++) {
 			String candidatoContactado = canditadosSelecionados[i];
 			ligarCandidato(candidatoContactado, chamadaAtendida());
 			
