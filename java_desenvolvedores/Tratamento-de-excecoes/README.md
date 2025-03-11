@@ -26,6 +26,7 @@ try {
 } finally {
     // executado sempre
 
-    \![Throwable Hierarchy]("D:\Repositorio_Github\projetos_java_DIO\java_desenvolvedores\Tratamento-de-excecoes\Exception-Hierarchy.png")
-    \![Throwable Hierarchy]("D:\Repositorio_Github\projetos_java_DIO\java_desenvolvedores\Tratamento-de-excecoes\Java-Exception-Hierarchy-Explained-1.webp")
+    ![Throwable Hierarchy](D:\Repositorio_Github\projetos_java_DIO\java_desenvolvedores\Tratamento-de-excecoes\Exception-Hierarchy.png)
+    
+    ![Throwable Hierarchy](D:\Repositorio_Github\projetos_java_DIO\java_desenvolvedores\Tratamento-de-excecoes\Java-Exception-Hierarchy-Explained-1.webp)
 }
