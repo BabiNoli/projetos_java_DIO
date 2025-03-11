@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class DemonstraExcecaoSimples{
     public static void main(String[] args) {
-        do {
+        do { //loop para garantir que o usuário digite um número
             try {
                 Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
                 System.out.println("Digite a sua idade");
