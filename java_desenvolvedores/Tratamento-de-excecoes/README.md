@@ -19,19 +19,16 @@ Exceções surgem de condições inesperadas durante a execução, mas podem ser
 
 ## Tratamento de Exceções
 Use try-catch para capturar exceções específicas e o bloco finally para executar código que sempre deve rodar:
-try {
 
-    // código sujeito a exceção
+
+try {   // código sujeito a exceção
     
-} catch (TipoDeExcecao e) {
-
-    // tratamento ou log
+} catch (TipoDeExcecao e) {   // tratamento ou log
     
-} finally {
-
-    // executado sempre
+} finally {   // executado sempre
 
 
+  
  ![Throwable Hierarchy](./Exception-Hierarchy.png)
 
  Fonte da imagem: https://www.manishsanger.com/java-exception-hierarchy/
