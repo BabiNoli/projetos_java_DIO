@@ -29,6 +29,10 @@ try {
 
  ![Throwable Hierarchy](./Exception-Hierarchy.png)
 
+ Fonte da imagem: https://www.manishsanger.com/java-exception-hierarchy/
+
 ![Throwable Hierarchy](./Java-Exception-Hierarchy-Explained-1.webp)
+
+Fonte da imagem: https://programmers.io/blog/java-exceptions-hierarchy-handling-and-throwing-exceptions/
   
 }
