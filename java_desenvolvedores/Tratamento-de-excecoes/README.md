@@ -27,8 +27,8 @@ try {
     // executado sempre
 
 
-
  ![Throwable Hierarchy](./Exception-Hierarchy.png)
 
+![Throwable Hierarchy](./Java-Exception-Hierarchy-Explained-1.webp)
   
 }
