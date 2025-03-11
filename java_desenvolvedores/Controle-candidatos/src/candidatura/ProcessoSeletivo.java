@@ -24,9 +24,10 @@ public class ProcessoSeletivo {
 		int candidatosAtual = 0;
 		int indice = 0;
 		
+		
 		while(candidatosSelecionados < vagas && candidatosAtual < candidatos.length) {
 			String candidato = candidatos[candidatosAtual];
-			double salarioPretendido = valorPretendido();
+			double salarioPretendido = valorPretendido(); //gera um valor aleatório entre 1800 e 2200
 			System.out.println("\nO candidato " + candidato + " pretende ganhar " + salarioPretendido);
 			analisaCandidato(salarioPretendido, salarioBase, candidato);
 			
@@ -94,7 +95,7 @@ public class ProcessoSeletivo {
 	
 	static void ligarCandidato(String candidato, boolean chamadaAtendida) {
 		int tentativasRealizadas = 0;
-		chamadaAtendida = chamadaAtendida();
+		chamadaAtendida = chamadaAtendida(); //simula se a chamada foi atendida ou não aleatoriamente
 		
 		while(tentativasRealizadas < 3 && !chamadaAtendida) {
 			System.out.println("Tentando ligar para o candidato " + candidato + " pela " + (tentativasRealizadas+1) + " vez.");
